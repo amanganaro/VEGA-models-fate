@@ -1,4 +1,4 @@
-package insilico.fish_nic.descriptors.weights;
+package insilico.fish_nic_tk.descriptors.weights;
 
 import insilico.core.molecule.tools.Manipulator;
 import org.openscience.cdk.interfaces.IAtom;

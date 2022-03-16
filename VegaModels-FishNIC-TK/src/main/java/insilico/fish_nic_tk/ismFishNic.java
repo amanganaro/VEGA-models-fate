@@ -1,4 +1,4 @@
-package insilico.fish_nic;
+package insilico.fish_nic_tk;
 
 import Jama.EigenvalueDecomposition;
 import Jama.Matrix;
@@ -8,21 +8,16 @@ import insilico.core.ad.ADCheckIndicesQuantitative;
 import insilico.core.ad.item.*;
 import insilico.core.constant.MessagesAD;
 import insilico.core.descriptor.Descriptor;
-import insilico.core.descriptor.DescriptorBlock;
 import insilico.core.descriptor.DescriptorsEngine;
-import insilico.core.descriptor.blocks.*;
 import insilico.core.exception.InitFailureException;
 import insilico.core.model.InsilicoModel;
 import insilico.core.model.InsilicoModelOutput;
 import insilico.core.molecule.tools.Manipulator;
 import insilico.core.tools.utils.ModelUtilities;
-import insilico.fish_nic.descriptors.EmbeddedDescriptors;
-import insilico.fish_nic.descriptors.weights.CovalentRadius;
-import org.openscience.cdk.Atom;
+import insilico.fish_nic_tk.descriptors.EmbeddedDescriptors;
+import insilico.fish_nic_tk.descriptors.weights.CovalentRadius;
 import org.openscience.cdk.interfaces.IAtom;
 import org.openscience.cdk.interfaces.IAtomContainer;
-
-import java.util.ArrayList;
 
 /**
  *

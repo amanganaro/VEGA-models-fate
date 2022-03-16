@@ -1,4 +1,4 @@
-package insilico.fish_nic.descriptors;
+package insilico.fish_nic_tk.descriptors;
 
 import insilico.core.exception.GenericFailureException;
 import insilico.core.exception.InvalidMoleculeException;

@@ -1,4 +1,4 @@
-package insilico.fish_nic;
+package insilico.fish_nic_tk;
 
 
 /**

@@ -1,4 +1,4 @@
-package insilico.fish_nic.descriptors.weights;
+package insilico.fish_nic_tk.descriptors.weights;
 
 import Jama.Matrix;
 import insilico.core.descriptor.Descriptor;
@@ -7,7 +7,6 @@ import insilico.core.exception.GenericFailureException;
 import insilico.core.exception.InvalidMoleculeException;
 import insilico.core.molecule.InsilicoMolecule;
 import lombok.extern.slf4j.Slf4j;
-import org.openscience.cdk.Atom;
 import org.openscience.cdk.CDKConstants;
 import org.openscience.cdk.graph.PathTools;
 import org.openscience.cdk.interfaces.IAtom;
