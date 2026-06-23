@@ -12,8 +12,8 @@ import insilico.core.exception.InitFailureException;
 import insilico.core.model.InsilicoModel;
 import insilico.core.model.InsilicoModelOutput;
 import insilico.core.tools.utils.ModelUtilities;
-import insilico.cpannatnic.CPANNPredictor;
-import insilico.cpannatnic.CPANNResults;
+import insilico.core.auxiliary.cpannatnic.CPANNPredictor;
+import insilico.core.auxiliary.cpannatnic.CPANNResults;
 import insilico.persistence_soil_quantitative_irfmn.descriptors.EmbeddedDescriptors;
 
 import java.net.URL;
